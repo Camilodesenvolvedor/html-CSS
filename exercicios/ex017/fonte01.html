@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw,
+            16px geralmente = 1em
+            */
+           font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+        h1{
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-weight: bold;
+            font-size: 3em ;
+            font-style: italic;
+            text-decoration: underline;*/
+            font: italic bold 3em 'Arial', sans-serif;
+        }
+        h2{
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, consequuntur veritatis excepturi tempore nesciunt quos officiis itaque, ipsam ut voluptate culpa minima repellendus eveniet quibusdam! Provident, quos esse? Enim, dolorem?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse nobis officia vero aut voluptate, excepturi odit ab harum eaque, blanditiis eligendi quia expedita. Quibusdam repellat minima iure at cupiditate!</p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur iusto repellat quo saepe est asperiores dolorem veniam corporis soluta, nobis excepturi adipisci voluptatibus, amet voluptates! Repellendus pariatur non amet impedit?
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla et, est non temporibus eum aut minima perferendis, inventore dicta, eius enim doloribus cum dolores nemo culpa esse eaque earum?</p>
+</body>
+</html>
